@@ -42,10 +42,13 @@ section {
 }
 
 .banner {
-    background: url(/images/Reuniclus.png) center/ cover no-repeat;
+    background: url("/images/Reuniclus.png") center/ cover no-repeat;
     text-align: center;
     color: rgb(0, 0, 0);
     padding: 200px 50px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 .banner h1 {
