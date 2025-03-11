@@ -52,7 +52,7 @@ section {
     padding: 10px;
 }*/
 .banner {
-    background: url("/images/Reuniclus.png") center/ cover no-repeat;
+    background: url("images/Reuniclus.png") center/ cover no-repeat;
     text-align: center;
     color: rgb(0, 0, 0);
     padding: 200px 50px;
