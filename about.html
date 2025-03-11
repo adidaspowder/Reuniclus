@@ -1,0 +1,57 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Me - Reuniclus</title>
+        <link rel="stylesheet" href="styles/aboutMstyles.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="Project 4.html" class="logo">Reuniclus</a>
+            <div class="nav-links" id="navLinks">
+                <a href="Project 4.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="Project 4.html#Pokemon">Pokemon</a>
+                <a href="Project 4.html#ReuniclusInfo">Reuniclus Info</a>
+                <a href="Project 4.html#Merchandise">Merchandise</a>
+                <a href="Project 4.html#Gallery">Gallery</a>
+            </div>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </nav>
+        <div class="about-container">
+            <div class="about-header">
+                <h1>About Me</h1>
+            </div>
+
+            <div class="about-content">
+                <div class="bio">
+                    <h2>Loren Plous</h2>
+                    <p>
+                        Hi, I’m Loren! I am a student at the University of Oregon. I am just finishing up my first computer science class. I am originally from Florida and I have just started to explore the west coast. One of my biggest current hobbies is collecting Pokémon. I have joined the Pokémon club at UO. I also play video games and I love to take naps. I have a knack for cooking and used to bake. I am planning to major in math with a minor in computer information technology but currently I am undecided. I took this Computer Science class to explore fields and to see if I enjoyed computer science. 
+                    </p>
+                    <p>
+                        Recently, I have started to collect Pokémon cards again. After opening pack after pack seeing new Pokémon, I began to see some Pokémon that I recognized. Then I saw him, Reuniclus. This was a Pokémon that I dearly remembered from my childhood. So then it became an addiction for me. I bought a plushie, keychains and collected even more cards of that specific Pokémon. I think it struck me so much because I think Reuniclus was a really common card that I had a lot of repeat cards of. There are other Pokémon that I like and collect but Reuniclus holds a place in my heart that it will always have. I am currently trying to get more merchandise of this Pokémon but most of it is exclusive to Japan so I have to both wait and pay high prices for it to be exported to America. Other than Reuniclus I have also started collecting full art Pikachu cards, I have recently collected a lot of celebration cards where it uses the older Pikachu design. I like collecting those because they are cheap and cute.  
+                    </p>
+                    <a href="resume.html" class="resume-btn">Look at My Resume</a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2025 Loren Barrett-Plous. All rights reserved. Images used from &copy; 1995-2025 Pokemon . All rights reserved.</p>
+        </footer>
+        <script>
+            // Toggle mobile menu
+            function toggleMenu() {
+                const navLinks = document.getElementById('navLinks');
+                navLinks.classList.toggle('active');
+            }
+            
+            // Close mobile menu when a nav link is clicked
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    document.getElementById('navLinks').classList.remove('active');
+                });
+            });
+        </script>
+    </body>
+</html>

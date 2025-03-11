@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title> My Resume </title>
+    <link rel="stylesheet" href="styles/stylesR.css">
+    </head>
+ <body>
+    <nav class="navbar">
+        <a href="Project 4.html" class="logo">Reuniclus</a>
+        <div class="nav-links" id="navLinks">
+            <a href="Project 4.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="Project 4.html#Pokemon">Pokemon</a>
+            <a href="Project 4.html#ReuniclusInfo">Reuniclus Info</a>
+            <a href="Project 4.html#Merchandise">Merchandise</a>
+            <a href="Project 4.html#Gallery">Gallery</a>
+        </div>
+        <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+    <div class="container">
+        <header>
+         <h1 class="contact-info">Loren Barrett-Plous</h1>
+        <p class="contact-info">
+         <a href="mailto:dashe900@gmail.com" class="contact-link">
+            <img src="images/email-icon.png" alt="email" class="contact-icon">
+            dashe900@gmail.com
+         </a>
+         <a href="tel:2489143464" class="contact-link">
+            <img src="images/Telephone-icon.png" alt="(248)9143464" class="contact-icon">
+            248-914-3464
+         </a>
+         <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage" class="contact-link">
+            <img src="images/indeed-icon.png" alt="Indeed" class="contact-icon">
+            indeed
+         </a>
+         </p>
+        
+        </header>
+        <section>
+            <h2>Objective</h2>
+            <p>Math Enthusiast looking for a career in the field. Looking for an intership,</p>
+
+        </section>
+        <section>
+            <h2>Education</h2>
+            <h3>Bachelor of Science at University Of Oregon</h3>
+            <p>Expected Graduation: 2029</p>
+            <ul><li>Relevant courses: Fluency With Info Tech, Ethics 1, Finding Alg and Math Modeling</li>
+                <li>GPA: 3.8/4</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <ul><li>Merchandising</li>
+                <li>Food Service</li>
+                <li>Communication Skills</li>
+                <li>Organizational Skills</li>
+                <li>Time Management</li>
+                <li> Basic Math</li> 
+            </ul>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <h3>PTSA Road Safety</h3>
+            <p>Assisted in painting a large mural in nearby sidewalks to raise awareness for the safey of pedistrians.</p>
+        </section>
+        <section>
+            <h2> Experience</h2>
+            <h3>Associate-Panera</h3>
+            <p>May 2022-June 2024</p>
+            <ul><li>Take Orders</li>
+                <li> Serving Food</li>
+                <li>Preparing Beverages</li>
+                <li>Cleaning Tables</li> 
+            </ul>
+            <h3>Math Tutor</h3>
+            <p> June 2023-June 2024</p>
+            <ul> <li> Tutor Students using the Mathnasium Method.</li>
+                <li>Work collaboratively with team members to deliver individualized instruction in a group setting. </li>
+                <li>Assess students' learning progress and engagement throughout instructional sessions.</li>
+            </ul>
+            <h3>Retail Merchandiser</h3>
+            <p>September 2024-December 2024</p>
+            <ul><li>Enhance the shopping experience for customers within the Kroger brand.</li>
+                <li>Utilize basic merchandising skills to reset shelves, tag products, build eye-catching displays, ensure product facing, and rotate stock efficiently.</li>
+                <li>Maintain the visual appeal of the grocery stores, ensuring products are well-presented, and displays are aesthetically pleasing.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Extracurricular Activities</h2>
+            <ul><li>Yoga</li>
+                <li>Volunteer work at an Assisted Living</li>
+                <li>Member of a Recycling Club</li>
+            </ul>
+        </section>
+    
+    <footer>
+        <p> &copy; 2025 Loren Barrett-Plous. All rights reserved.</p>
+    </footer>
+    <script>
+        // Toggle mobile menu
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+        
+        // Close mobile menu when a nav link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navLinks').classList.remove('active');
+            });
+        });
+    </script>
+</div>
+</body>
+</html>
